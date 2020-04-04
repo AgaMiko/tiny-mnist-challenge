@@ -1,5 +1,6 @@
-# TinyMNISTChallenge
+# Tiny MNIST Challenge 2020
 Tiny MNIST Challenge for Gdańsk University student's class.
+Kaggle: https://www.kaggle.com/c/msi-tinymnist2020
 
 ### Matlab examples - code and toolboxes instruction.
 Built-in data loaders and submission preparation.
