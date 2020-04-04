@@ -12,6 +12,6 @@ Built-in data loaders and submission preparation.
 ### Pytorch examples - ready to run in Colab
 Built-in data loaders, submission preparation and sending.
 
-* **Simple neural network** - This is a basic fully-connected network. Two fully-connected layers and relu activation.[code](pytoch_examples/simple_Network.m)
+* **Simple neural network** - This is a basic fully-connected network. Two fully-connected layers and relu activation.[code](pytoch_examples/simple_Network.ipynb)
 
-* **Basic convolutional neural network** - Simple neural network with 2 convolutional layers, relu activation, maxpooling and fully-connected layer. [code](pytorch_examples/simple_CNN.m)
+* **Basic convolutional neural network** - Simple neural network with 2 convolutional layers, relu activation, maxpooling and fully-connected layer. [code](pytorch_examples/simple_Network.ipynb)
