@@ -1,10 +1,10 @@
 % MSI TinyMNIST CHallenge 2020
 % Agnieszka Miko³ajczyk
 % Use "Run section" or "Run and Advance" option!
-
+clc, clear
 %% Load dataset
 tinyMNIST = imageDatastore('TinyMNIST/train/', 'LabelSource', 'foldernames', 'IncludeSubfolders',true);
-stats = countEachLabel(imds)
+stats = countEachLabel(tinyMNIST)
 [train,valid] = splitEachLabel(tinyMNIST,350,'randomize'); % split to validation and test data
 
 %% Network architecture
