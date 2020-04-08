@@ -1,5 +1,5 @@
 % MSI TinyMNIST CHallenge 2020
-% Agnieszka Miko³ajczyk
+% Agnieszka MikoÂ³ajczyk
 % Use "Run section" or "Run and Advance" option!
 %% Load Dataset
 clc, clear
@@ -74,7 +74,7 @@ predictions = net(images) % net - your network
 
 %% Prepare submission file
 submission=[]
-for record=1:tinyMNIST_test.numpartitions
+for record=1:600
     filename=split(tinyMNIST_test(record).name,'_'); % split string with _ delimiter
     filename=split(filename{2},'.'); % take second part of the string and split with . delimiter
     index = str2double(filename{1});
