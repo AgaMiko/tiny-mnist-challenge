@@ -15,3 +15,6 @@ Built-in data loaders, submission preparation and sending.
 * **Simple neural network** - This is a basic fully-connected network. Two fully-connected layers and relu activation.[code](example_code/pytoch_examples/simple_Network.ipynb)
 
 * **Basic convolutional neural network** - Simple neural network with 2 convolutional layers, relu activation, maxpooling and fully-connected layer. [code](example_code/pytorch_examples/simple_Network.ipynb)
+
+# Winners solutions
+The winning codes can be found in the [notebooks section](notebooks). Number of the file indicates the postion of the solution in the rank.
